@@ -1,0 +1,229 @@
+<!DOCTYPE html><!--22161038 이예원-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+<style>
+
+    /*초기화*/
+        <style>
+          *{margin: 0; padding: 0;}
+          body{font-family: '나눔 고딕', serif;}
+          li{list-style: none;}
+          a{text-decoration: none;}
+          img{border: 0;}
+
+    /*헤더*/
+          #main_header{
+            /*중앙정렬*/
+            width: 1200px; margin: 0 auto;
+
+            /* 절대좌표 */
+            height: 160px;
+            position: relative;
+          }
+
+          #main_header > #title {
+            position: absolute;
+            left: 5px; top: 30px;
+          }
+
+          #main_header > #main_lnb {
+            position: absolute;
+            right: 0; bottom: 10px;
+          }
+
+          /*메뉴(2)*/
+                #main_lnb > ul {overflow: hidden;}
+                #main_lnb > ul > li {float: left;}
+                #main_lnb > ul > li > a {
+                  display: block;
+                  padding: 10px 20px;
+                  border: 1px solid black;
+                }
+                #main_lnb > ul > li > a:hover {
+                  background: black;
+                  color: white;
+                }
+                #main_lnb > ul > li:first-child > a {border-radius: 10px 0 0 10px;}
+                #main_lnb > ul > li:last-child > a {border-radius: 0 10px 10px 0;}
+
+
+                #contents{
+                  width: 1140px;
+                  margin: 0 auto;
+                }
+
+                #sub_menu{
+                  width: 234px;
+                  float: left;
+                  margin-top: 25px;
+                }
+
+                #sub_menu h3{
+                  font-size: 18px;
+                  color: white;
+                  padding: 12px;
+                  background-color: #D6B299;
+                }
+
+                #sub_menu li{
+                  padding: 10px;
+                  border-bottom: dotted 1px #cccccc;
+                }
+
+                #main_contents{
+                  width: 880px;
+                  float: right;
+                  margin-top: 25px;
+                }
+
+                #main_contents h3{
+                  font-size: 22px;
+                  padding-bottom: 8px;
+                  border-bottom: solid 1px #cccccc;
+                }
+
+                #main_contents p{
+                  margin-top: 30px;
+                  line-height: 180%
+                }
+
+                #main_contents #figure{
+                  margin-top: 30px;
+                  text-align: center;
+                }
+
+                #main_contents li{
+                  padding: 5px;
+                }
+
+
+                #menus{
+                  float: right;
+                  /*border: solid 1px red;*/
+                }
+
+                #top_menu{
+                  text-align: right;
+                }
+
+                footer{
+                  width: 100%;
+                  height: 150px;
+                  margin-top: 1200px;
+                  background-color: #D6B299;
+                }
+
+                #footer_box{
+                  width: 1140px;
+                  height: 150px;
+                  margin: 0 auto;
+                }
+
+                #footer_logo{
+                  float: left;
+                  margin: 50px 0 0 30px;
+                }
+
+                #address{
+                  float: right;
+                  margin: 50px 30px 0 0;
+                  color: white;
+                }
+
+                a:link{
+                  text-decoration: none;
+                  color: black;
+                }
+
+                a:visited{
+                  text-decoration: none;
+                  color: black;
+                }
+
+                a:hover{
+                  text-decoration: none;
+                  color:black;
+                }
+
+                a:active{
+                  text-decoration: none;
+                  color: black;
+                }
+
+</style>
+
+  </head>
+  <body>
+
+    <header id="main_header">
+      <div id="title">
+        <a href='index.html'><img src='logo0.png'></a>
+      </div>
+
+      <div id='top_menu'>
+        우리나라 고유 행사 3가지를 알아보고 싶으면 '국내 행사'클릭!
+      </div>
+
+      <nav id="main_lnb">
+        <ul>
+          <li><a href="overseas1.html">할로윈데이</a></li>
+          <li><a href="overseas2.html">뺴빼로데이</a></li>
+          <li><a href="overseas3.html">크리스마스</a></li>
+          <li><a href="Unique1.html">국내 행사</a></li>
+        </ul>
+      </nav>
+      </header>
+
+<section id='contents'>
+
+  <nav id='sub_menu'>
+    <h3>할로윈데이</h3>
+    <ul>
+      <a href='overseas1.html'><li>정의</li></a>
+      <a href='overseas1-1.html'><li>유래</li></a>
+      <a href='overseas1-2.html'><li>특징</li></a>
+    </ul>
+  </nav>
+
+  <div id='main_contents'>
+    <h3>특징</h3>
+    <p></p>
+<div id='figure'>
+  <img src='img17.jpeg'>
+</div>
+<p>할로윈(Halloween)때는 어린이를 위한 사탕이나 초콜릿 같은 음식을 주로 먹죠?!</p>
+
+<ul>
+  <li>대한민국에서 할로윈은 잘 알려지지 않은 행사였지만 2000년대 들어서 유치원, 초등학교 등에서 퍼지기 시작했는데,</li>
+  <li>에버랜드, 롯데월드 등의 놀이공원이나 클럽 등에서 할로윈에 맞춰 파티나 이벤트를 열고 있어서</li>
+  <li>이제는 어른들에게도 잘 알려진 행사가 되었다고 해요!</li>
+</ul>
+  </div>
+
+</section>
+
+<div class="clear">
+  <!-- float 속성 해제-->
+</div>
+
+<footer>
+  <div id='footer_box'>
+    <div id='footer_logo'>
+      <img src='logo0.png'>
+    </div>
+
+    <ul id='address'>
+      <li>서울시 강남구 가나다동 1234
+      우: 123-1234</li>
+      <li>TEL: 010-0000-0000 Email: dnjs1031@kaywon.ac.kr</li>
+      <li>COPYRIGHT (C) googleapis/ 위키백과 / 블로그 / 한국민족문화대백과사전</li>
+    </ul>
+
+  </div>
+</footer>
+
+  </body>
+</html>
